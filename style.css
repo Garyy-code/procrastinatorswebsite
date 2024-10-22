@@ -3,26 +3,40 @@ html {
   width: 100%;
 }
 
-nav ul{
+nav ul {
   background-color: #ffa500;
   padding: 10px;
   list-style-type: none;
   text-align: center;
 }
-nav ul li{
+
+nav ul li {
   display: inline;
   margin-right: 15px;
+  background:local;
 }
-nav ul li a{
+
+nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 18px;
 }
-nav ul li a:hover{
+nav a {
+  color: #ffa500;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+nav ul li a:hover {
   color: #f7e23d;
 }
+nav a:hover {
+  transform: scale(1.15);
+  }
 
-body{
+body {
   font-family: 'Pattick Hand', cursive;
   background-color: beige;
   color: #333;
@@ -30,34 +44,49 @@ body{
   padding: 0;
   text-align: center;
 }
-h1{
+
+h1 {
   color: #ffa500;
   text-align: center;
   font-size: 3em;
   margin-bottom: 20px;
 }
-h2{
+
+h2 {
   color: darkorange;
   text-align: center;
 }
-p{
+
+p {
   font-size: 1.2em;
   line-height: 1.5em;
   margin-bottom: 20px;
 }
-#nothing{
+ul{
+  list-style-type:none ;
+  padding: 0;
+}
+ul li{
+  background-color: #e6f87f;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+#nothing {
   color: beige;
 }
-button{
+
+button {
   background-color: #f7e23d;
-  color:#333;
+  color: #333;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
 }
-button:hover{
+
+button:hover {
   background-color: #ffa500;
   transform: scale(1.05);
 }
