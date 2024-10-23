@@ -13,7 +13,7 @@ nav ul {
 nav ul li {
   display: inline;
   margin-right: 15px;
-  background:local;
+  background: local;
 }
 
 nav ul li a {
@@ -21,6 +21,7 @@ nav ul li a {
   color: white;
   font-size: 18px;
 }
+
 nav a {
   color: #ffa500;
   padding: 10px 20px;
@@ -29,12 +30,14 @@ nav a {
   font-size: 16px;
   cursor: pointer;
 }
+
 nav ul li a:hover {
   color: #f7e23d;
 }
+
 nav a:hover {
   transform: scale(1.15);
-  }
+}
 
 body {
   font-family: 'Pattick Hand', cursive;
@@ -57,23 +60,27 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  color: darkorange;
+  text-align: center;
+}
+
 p {
   font-size: 1.2em;
   line-height: 1.5em;
   margin-bottom: 20px;
 }
-ul{
-  list-style-type:none ;
+
+ul {
+  list-style-type: none;
   padding: 0;
 }
-ul li{
+
+ul li {
   background-color: #e6f87f;
   margin: 10px 0;
   padding: 10px;
   border-radius: 5px;
-}
-#nothing {
-  color: beige;
 }
 
 button {
