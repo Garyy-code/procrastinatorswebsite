@@ -19,7 +19,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: white;
-  font-size: 18px;
+  font-size: 120%;
 }
 
 nav a {
@@ -27,7 +27,7 @@ nav a {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 130%;
   cursor: pointer;
 }
 
@@ -58,16 +58,18 @@ h1 {
 h2 {
   color: darkorange;
   text-align: center;
+  font-size: 2.5em;
 }
 
 h3 {
   color: darkorange;
   text-align: center;
+  font-size: 1.5em;
 }
 
 p {
-  font-size: 1.2em;
-  line-height: 1.5em;
+  font-size: 150%;
+  line-height: 150%;
   margin-bottom: 20px;
 }
 
@@ -81,19 +83,6 @@ ul li {
   margin: 10px 0;
   padding: 10px;
   border-radius: 5px;
+  font-size: 150%;
 }
 
-button {
-  background-color: #f7e23d;
-  color: #333;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #ffa500;
-  transform: scale(1.05);
-}
